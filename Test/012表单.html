@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>表单</title>
+	</head>
+	
+	<body>
+		<h3>用户注册</h3>
+		<form action="http://www.itcast.cn">
+			<div>
+				<label>用户名：</label>
+				<input type="text" name="username" />
+			</div>
+			<div>
+				<label>密码：</label>
+				<input type="password" name="pwd" />
+			</div>
+			<div>
+				<label>性别：</label>
+				<input type="radio" name="gender" />男
+				<input type="radio" name="gender" />女
+			</div>
+			<div>
+				<label>爱好：</label>
+				<input type="checkbox" name="like" />游戏
+				<input type="checkbox" name="like" />运动
+				<input type="checkbox" name="like" />聊天
+				<input type="checkbox" name="like" />睡觉
+			</div>
+			<div>
+				<label>照片：</label>
+				<input type="file" name="photo" />
+			</div>
+			<div>
+				<label>个人描述：</label>
+				<textarea></textarea>
+			</div>
+			<div>
+				<label>籍贯：</label>
+				<select name="site">
+					<option value="0"></option>
+					<option value="1">北京</option>
+				</select>
+			</div>
+			<input type="submit" value="提交" />
+			<input type="reset" value="重置" />
+			<input type="button" value="按钮" />
+		</form>
+	</body>
+	
+</html>

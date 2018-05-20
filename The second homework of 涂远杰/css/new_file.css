@@ -1,0 +1,18 @@
+li{
+	list-style: none;
+	width: 200px;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid lightsteelblue;
+	background: url(../img/素材/image/submenu.gif)200px 28px;
+}
+div{
+	width: 200px;
+	height: 28px;
+	border: 1px solid lightsteelblue;
+	font-weight: bold;
+	font-size: 14px;
+	color: rgb(36,60,113);
+	background: url(../img/素材/image/title_icon.gif)2px 6px no-repeat;
+	background-color: rgb(245,249,252);
+}
